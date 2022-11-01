@@ -1,0 +1,7 @@
+description: Kiae addon for KubeVela.
+icon: ""
+invisible: false
+name: kiae
+tags:
+- my-tag
+version: 0.1.0
