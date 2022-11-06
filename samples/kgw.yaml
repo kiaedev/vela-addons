@@ -1,0 +1,18 @@
+# app.yaml
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: kigw-test
+spec:
+  components:
+    - name: kigw-test
+      type: k-istio-gateway
+      properties:
+        hosts: 
+          - test.example.com
+          - test1.example.com
+        httpsEnabled: true
+        httpsRedirect: true
+        customPorts:
+          - port: 8000
+            protocol: TCP
