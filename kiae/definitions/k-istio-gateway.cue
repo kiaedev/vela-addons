@@ -72,9 +72,9 @@ template: {
 
 		hosts: [...string]
 
-		httpsEnabled: bool
+		httpsEnabled: *false | bool
 
-		httpsRedirect: bool
+		httpsRedirect: *false | bool
 
 		customPorts: [...{
 			port: number
