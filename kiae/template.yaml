@@ -1,0 +1,18 @@
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: kiae
+  namespace: kiae-system
+spec:
+  components:
+    - name: kiae
+      type: helm
+      properties:
+        repoType: git
+        url: https://github.com/kiaedev/helm-charts
+        chart: ./charts/kiae
+        targetNamespace: kiae-system
+        releaseName: kiae
+        git:
+          branch: main
+          provider: GitHub

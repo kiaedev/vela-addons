@@ -1,7 +1,17 @@
+name: kiae
 description: Kiae addon for KubeVela.
 icon: ""
-invisible: false
-name: kiae
+url: https://kubevela.io
 tags:
-- my-tag
+  - Kiae
 version: 0.1.0
+invisible: false
+dependencies:
+  - name: fluxcd
+
+deployTo:
+  controlPlane: true
+  runtimeCluster: false
+
+system:
+  vela: ">=v1.5.8"
