@@ -12,7 +12,6 @@ entries:
     keywords:
     - Kiae
     name: kiae
-    type: library
     urls:
     - https://kiaedev.github.io/vela-addons/kiae-0.1.0.tgz
     version: 0.1.0
