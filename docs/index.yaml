@@ -5,14 +5,15 @@ entries:
       system.vela: '>=v1.5.8'
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-11-20T20:04:58.757873+08:00"
+    created: "2022-11-21T00:23:47.178071+08:00"
     description: Kiae addon for KubeVela.
-    digest: 8d6962b5184b6921326b812e182b89bba6facfc2e5fd5b8983186f89bd0f3569
+    digest: 8e5823b7c5aca0accd480da8e0db374de8fe35be7b7fc466e055a2f82e83a67d
     home: https://kubevela.io
     keywords:
     - Kiae
     name: kiae
+    type: library
     urls:
     - https://kiaedev.github.io/vela-addons/kiae-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-20T20:04:58.755613+08:00"
+generated: "2022-11-21T00:23:47.177419+08:00"
