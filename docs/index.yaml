@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  kiae:
+  - annotations:
+      system.vela: '>=v1.5.8'
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-11-20T19:58:03.07571+08:00"
+    description: Kiae addon for KubeVela.
+    digest: 8d6962b5184b6921326b812e182b89bba6facfc2e5fd5b8983186f89bd0f3569
+    home: https://kubevela.io
+    keywords:
+    - Kiae
+    name: kiae
+    type: library
+    urls:
+    - kiae-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-20T19:58:03.074762+08:00"
