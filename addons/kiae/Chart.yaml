@@ -1,0 +1,11 @@
+annotations:
+  system.vela: '>=v1.5.8'
+apiVersion: v2
+appVersion: 0.1.0
+description: Kiae addon for KubeVela.
+home: https://kubevela.io
+keywords:
+- Kiae
+name: kiae
+type: library
+version: 0.1.0

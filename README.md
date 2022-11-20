@@ -3,5 +3,5 @@
 ## Add repository
 
 ```shell
-vela addon registry add Kiae --type git --endpoint https://github.com/kiaedev/vela-addons --path kiae
+vela addon registry add Kiae --type git --endpoint https://github.com/kiaedev/vela-addons --path addons
 ```
