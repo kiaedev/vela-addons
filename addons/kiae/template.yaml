@@ -11,6 +11,6 @@ spec:
         repoType: helm
         url: https://kiaedev.github.io/helm-charts
         chart: kiae
-        version: "0.1.0"
+        version: "0.1.1"
         targetNamespace: kiae-system
         releaseName: kiae
