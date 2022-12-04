@@ -1,13 +1,13 @@
 name: kiae
 description: Kiae addon for KubeVela.
 icon: ""
-url: https://kubevela.io
+url: https://kiae.dev
 tags:
   - Kiae
 version: 0.1.0
 invisible: false
 dependencies:
-  - name: fluxcd
+#  - name: fluxcd
 
 deployTo:
   controlPlane: true
